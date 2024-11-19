@@ -9,11 +9,12 @@ The objective of this assignment is to classify **96x96 RGB images** of blood ce
 ![Class Distribution](https://github.com/GabrieleSinge/Deep-Learning-Homework-2024-/blob/main/classes.png)
 
 ### Methodology
-We trained a **Convolutional Neural Network (CNN)** using the **EfficientNetV2Small backbone**, combined with additional regularization layers to improve generalization. Key steps included:
+We developed a **Convolutional Neural Network (CNN)** based on the **EfficientNetV2Small backbone**, incorporating additional regularization layers to improve the model's generalization capabilities. Key steps in our approach included:
 
-- **Image Augmentation**: Applied various augmentation techniques to enhance the robustness of the model.
-- **Fine-Tuning**: Fine-tuned the pre-trained EfficientNetV2Small model to adapt it to the specific dataset.
+- **Image Augmentation**: Applied various augmentation techniques to increase the diversity of training samples and enhance robustness.
+- **Fine-Tuning**: Fine-tuned the pre-trained EfficientNetV2Small model to optimize its performance for this specific dataset.
+- **Data Balancing**: Addressed the class imbalance issue (with a 0.36 ratio between the smallest and largest classes) using an oversampling technique to ensure better accuracy and performance.
 
 ### Results
 - Achieved an accuracy of **0.90** during the development phase.
-- Final phase results are pending and will be updated soon.
+- Results for the final phase are pending and will be updated shortly.
