@@ -1,13 +1,19 @@
-# Deep-Learning-Homework-2024
-Artificial Neural Networks and Deep Learning homeworks This repository contains the jupyter notebooks used for the two homeworks of the Artificial Neural Networks &amp; Deep Learning course given by Professors Matteuci and Boracchi at Politecnico di Milano.
+# Deep Learning Homework 2024
 
-# Homework 1 : Whyte Blood Cells Classification
+This repository contains the Jupyter notebooks developed for the two assignments of the **Artificial Neural Networks and Deep Learning** course, taught by Professors Matteucci and Boracchi at **Politecnico di Milano**.
 
-In this assignment, you will classify 96x96 RGB images of blood cells. 
-These images are categorized into eight classes, each representing a particular cell state. 
-This is a multi-class classification problem, so your goal is to assign the correct class label to each RGB image.
+## Homework 1: White Blood Cell Classification
 
-![alt text]https://github.com/GabrieleSinge/Deep-Learning-Homework-2024-/blob/main/classes.png
+The objective of this assignment is to classify **96x96 RGB images** of blood cells into one of **eight distinct classes**, each representing a specific cell state. This is a **multi-class classification problem**, where the goal is to correctly assign a class label to each image.
 
-We trained an CNN network with EfficientNetV2Small backbone and some regularization layers after.
-Applying augmentation to the images and doing fine tuning to the model we achieved 0.90 score accuracy in the development phase of the challenge and ... in the final phase.
+![Class Distribution](https://github.com/GabrieleSinge/Deep-Learning-Homework-2024-/blob/main/classes.png)
+
+### Methodology
+We trained a **Convolutional Neural Network (CNN)** using the **EfficientNetV2Small backbone**, combined with additional regularization layers to improve generalization. Key steps included:
+
+- **Image Augmentation**: Applied various augmentation techniques to enhance the robustness of the model.
+- **Fine-Tuning**: Fine-tuned the pre-trained EfficientNetV2Small model to adapt it to the specific dataset.
+
+### Results
+- Achieved an accuracy of **0.90** during the development phase.
+- Final phase results are pending and will be updated soon.
